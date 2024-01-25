@@ -15,3 +15,9 @@ market_cap_raw = dec6[['id', 'market_cap_usd']]
 
 # Counting the number of values
 market_cap_raw.count()
+
+# Filtering out rows without a market capitalization
+cap = market_cap_raw.query('market_cap_usd > 0')
+
+# Counting the number of values again
+cap.count()
