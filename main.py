@@ -49,3 +49,5 @@ ax.set_ylabel('USD')
 
 # Final touch! Removing the xlabel as it is not very informative
 ax.set_xlabel('');
+
+#next session
